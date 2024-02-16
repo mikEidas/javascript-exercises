@@ -15,8 +15,7 @@ function palindromes (string) {
 
     newString = newString.replaceAll(' ','');
 
-    if (newString === newString.split('').reverse().join('')) return true;
-    else return false;
+    return newString === newString.split('').reverse().join('');
 }
 
 // Do not edit below this line
