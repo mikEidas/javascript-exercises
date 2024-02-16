@@ -11,7 +11,7 @@ const sum = function(...nums) {
     nums = nums[0];
   }
 
-	const summation = nums.reduce((acc,curr) => acc + curr, 0);
+  const summation = nums.reduce((acc,curr) => acc + curr, 0);
   return summation;
 };
 
